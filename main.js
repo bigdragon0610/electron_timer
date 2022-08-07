@@ -10,7 +10,7 @@ const createWindow = () => {
     },
   });
 
-  win.loadFile("index.html");
+  win.loadFile("./react-src/build/index.html");
 };
 
 app.whenReady().then(() => {
